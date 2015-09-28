@@ -1,0 +1,29 @@
+{
+    "name": "andela/todo-app",
+    "authors": [
+        {
+            "name": "andela-ooduye",
+            "email": "oduyeoluwayemisi@andela.co"
+        }
+    ],
+    "require": {
+      "php" : ">=5.3.0",
+      "vlucas/phpdotenv": "^2.0"
+    },
+    "autoload": {
+      "classmap": [
+        "src/"
+      ],
+      "psr-4": {
+        "Yemisi\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "classmap": [
+        "tests/"
+      ],
+      "psr-4": {
+        "Yemisi\\Test\\": "tests"
+      }
+    }
+}
